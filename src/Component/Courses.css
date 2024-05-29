@@ -1,0 +1,42 @@
+.courseCard {
+
+    margin: 20px 20px;
+    padding: 10px;
+    background-color: #053B50;
+    color: white;
+    border-radius: 5px;
+}
+
+.cardItem {
+    margin: 5px;
+}
+
+.cont{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerStyle {
+    width: 80vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .containerStyle {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .containerStyle {
+      grid-template-columns: 1fr;
+    }
+  }

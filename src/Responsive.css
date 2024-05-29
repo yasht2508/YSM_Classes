@@ -1,0 +1,104 @@
+@media only screen and (max-width: 920px) {
+    .navbar ul li {
+
+        margin: 0 10px;
+
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+    .navbar ul li a {
+        display: none;
+        margin: 5px 0;
+    }
+
+    .logo {
+        font-size: 18px;
+
+    }
+
+    #contact img {
+        display: none;
+    }
+
+    .navbar button {
+        display: none;
+    }
+
+    .line {
+
+        display: block;
+
+    }
+
+    .burger {
+
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 10px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+    }
+
+    .navList {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logAndSignUp {
+        display: flex;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 380px) {
+    header ul li {
+        font-size: 10px;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+
+    .line {
+        width: 19px;
+        height: 2px;
+        margin: 3px;
+
+    }
+
+    .burger {
+        border: 1px solid #EEE;
+        padding: 1px;
+        border-radius: 4px;
+        position: absolute;
+        top: 15px;
+        right: 10px;
+        
+    }
+}
+
+@media Only screen and (max-width:800px) {
+    #imgcont img {
+        display: none;
+    }
+
+    #FormCont {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+}

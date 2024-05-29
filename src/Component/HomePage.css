@@ -1,0 +1,16 @@
+#homeSection{
+    width: 80vw;
+    margin: 90px auto;
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+  
+}
+.heading{
+    color: aliceblue;
+
+}
+.para{
+    margin: 20px 0;
+    color:bisque;
+}

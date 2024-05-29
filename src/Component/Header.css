@@ -1,0 +1,112 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.logo{
+    font-family: cursive;
+    color: blue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#headTop{
+   
+    padding: 5px;
+    background-color: #EEE;
+}
+#headTop ul li{
+    list-style: none;
+    margin: 0 7px;
+}
+
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 30px;
+    color:  #053B50;;
+    
+}
+#phoneContact{
+    display: flex;
+    margin: 0 15px;
+}
+#whatappContact{
+    display: flex;
+    margin: 0 15px;
+}
+header ul li a{
+    text-decoration:none;
+    color:  #053B50;;
+}
+
+.topInfo{
+    display: flex;
+    justify-content: space-between;
+}
+#contact{
+    display: flex;
+    
+    
+}
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: #053B50;
+    box-shadow: 0px 2px 1px #176B87;
+    z-index: 1;
+   
+}
+
+.navbar li  a{
+    color: #EEE;
+}
+
+.navList{
+    display: flex;
+}
+.logo{
+    margin: 0 15px;
+    color: #EEE;
+}
+.logAndSignUp button{
+      margin: 0 8px;
+}
+.logAndSignUp{
+    margin: 0 15px 0 0;
+}
+.btn{
+    cursor:pointer;
+    background-color: #176B87;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    font-size: 13px;
+    padding: 6px;
+}
+.btn:hover{
+  background-color: #64CCC5;
+}
+.line{
+    background-color: #EEE;
+    width: 25px;
+    height: 2px;
+    margin: 4px 0;
+    opacity: 0.8;
+    display: none;
+
+}
+.burger{
+    border: 1px solid #EEE;
+    padding: 3px;
+    border-radius: 4px;
+    opacity: 0.8;
+    display: none;
+    margin-right: 10px ;
+    /* position: fixed; */
+   
+}
+
